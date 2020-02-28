@@ -1,0 +1,24 @@
+{
+  "name": "aogo-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "aogo": "./bin/www"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src -d dist",
+    "watch": "npm run compile -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerminatorSd/aogo-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerminatorSd/aogo-cli/issues"
+  },
+  "homepage": "https://github.com/TerminatorSd/aogo-cli#readme"
+}
